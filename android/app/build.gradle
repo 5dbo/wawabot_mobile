@@ -7,8 +7,12 @@ plugins {
 
 android {
     namespace = "app.wawabot.ai.wawabot_mobile"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+
+
+   compileSdk = flutter.compileSdkVersion
+   ndkVersion = flutter.ndkVersion
+
+ //  compileSdkVersion 34 // Or your respective version
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
