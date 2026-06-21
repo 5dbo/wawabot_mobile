@@ -87,8 +87,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           );
                         } else {
                           messenger.showSnackBar(
-                            const SnackBar(
-                              content: Text('Authentication failed'),
+                            SnackBar(
+                              content: Text(
+                                authProvider.errorMessage ?? 'Authentication failed'),
                               backgroundColor: Colors.red,
                             ),
                           );
